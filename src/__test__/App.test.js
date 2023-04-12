@@ -1,8 +1,8 @@
 import React from "react";
 import { shallow, mount } from "enzyme";
-import App from "./App";
-import AccountBalance from "./components/AccountBalance";
-import Notification from "./components/Notification";
+import App from "../App";
+import AccountBalance from "../components/AccountBalance";
+import Notification from "../components/Notification";
 import toJson from "enzyme-to-json";
 
 const userBalance = {
