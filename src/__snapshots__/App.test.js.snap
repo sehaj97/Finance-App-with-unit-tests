@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots Accounts snapshots 1`] = `
+<div
+  className="columns"
+>
+  <div
+    className="column"
+  >
+    <div
+      className="box"
+    >
+      <h4
+        className="title is-4"
+      >
+        Your account balance:
+      </h4>
+      <div
+        className="amount balance"
+      >
+        $
+      </div>
+      <button
+        className="button is-info"
+        id="balance-button"
+        onClick={[Function]}
+      >
+        Send 100$
+      </button>
+    </div>
+  </div>
+  <div
+    className="column"
+  >
+    <div
+      className="box"
+    >
+      <h4
+        className="title is-4"
+      >
+        Your savings balance:
+      </h4>
+      <div
+        className="amount savings"
+      >
+        $
+      </div>
+      <button
+        className="button is-info"
+        onClick={[Function]}
+      >
+        Send 100$
+      </button>
+    </div>
+  </div>
+  <Notification />
+</div>
+`;
+
+exports[`snapshots App snapshot 1`] = `
+<div
+  className="app container"
+>
+  <div
+    className="section"
+  >
+    <h1
+      className="has-text-centered title is-1"
+    >
+      Welcome in the personal finance app!
+    </h1>
+    <AccountBalance
+      accounts={
+        Object {
+          "balance": 1500,
+          "savingBalance": 1328,
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`snapshots Notification snapshot 1`] = `
+<div
+  className="notification is-danger hidden"
+>
+  <button
+    className="delete"
+    onClick={[Function]}
+  />
+  <p>
+    Your account balance is very low.
+  </p>
+  <p>
+    You can't transfer more money today.
+  </p>
+</div>
+`;
